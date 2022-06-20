@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+/* Below codes are requested setup */
+.header, .hero {
+    background-color: #1f2937;
+}
+
+.header-link a, .second-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main-text{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.call, button {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+}
+
+/* My code starts here */
+.hero img {
+    background-color: gray;
+}
+
+.header {
+    padding: 20px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-link {
+    display: flex;
+    gap: 18px;
+}
+
+.header-link a {
+    text-decoration: none;
+}
+
+.hero {
+    padding: 90px 12%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+button {
+    padding: 7px 27px;
+    margin: 8px 0;
+}

@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Below codes are requested setup */
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1f2937;
 }
 
-.header-link a, .second-text {
+.header-link a, .second-text, .footer {
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -32,6 +34,8 @@ body {
     background-color: #3882f6;
     border-radius: 5px;
     border: none;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 /* My code starts here */
@@ -65,4 +69,82 @@ body {
 button {
     padding: 7px 27px;
     margin: 8px 0;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 12%;
+    gap: 40px;
+}
+
+.random-info-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.random-items {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.item-illustration {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.item-text {
+    width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 12%;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 90px;
+    margin: 100px 12%;
+    width: 800px;
+    align-self: center;
+}
+
+.call-heading {
+    font-size: 20px;
+}
+
+.call-discription {
+    font-weight: lighter;
+}
+
+.call button {
+    border: 2px solid #f9faf8;
+
+}
+
+.footer {
+    font-size: 15px;
+    text-align: center;
+    padding: 40px;
 }
